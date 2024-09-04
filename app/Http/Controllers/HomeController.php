@@ -6,10 +6,15 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function index() 
+    //
+    public function index()
     {
-        return 'Selamat Datang';
-        }
-        
+        return "Selamat Datang";
+    }
+
+    public function homePos()
+    {
+        return view('tampilanawal_pos');
+    }
 }
 
